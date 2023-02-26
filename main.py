@@ -1,6 +1,6 @@
 import time, os
-test_percent=0
-run = True
+test_percent=0# for test purposes
+run = True#also for test purposes
 print('\033[?25l')
 os.system("clear")
 def loader(percent,top_padding):
@@ -25,7 +25,7 @@ def loader(percent,top_padding):
     bar+=(' '+str(percent)+'%')
   print(bar)
         
-while run:
+while run:# testing function
   time.sleep(0.3)
   os.system("clear")
   if test_percent == 100:
